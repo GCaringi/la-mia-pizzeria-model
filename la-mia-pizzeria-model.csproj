@@ -7,8 +7,4 @@
         <RootNamespace>la_mia_pizzeria_model</RootNamespace>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="Views\Pizza" />
-    </ItemGroup>
-
 </Project>

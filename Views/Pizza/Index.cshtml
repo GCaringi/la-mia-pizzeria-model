@@ -1,0 +1,33 @@
+﻿@model List<Pizza>
+
+@{
+}
+
+<div>
+    <table>
+        <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Descrizione</th>
+            <th>Foto</th>
+            <th>Prezzo</th>
+        </tr>
+        </thead>
+        
+        <tbody>
+        @foreach (Pizza pizza in Model)
+        {
+            <tr>
+                <td>
+                    <a asp-area="" asp-controller="Pizza" asp-route-id="@pizza.Id" asp-action="ShowById">@pizza.Name</a>
+                </td>
+                <td>@pizza.Description</td>
+                <td>
+                    <img src="" alt="@pizza.Image"/>
+                </td>
+                <td>@pizza.Price €</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>

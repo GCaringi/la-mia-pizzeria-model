@@ -23,6 +23,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Caringi's/RiderProjects/la-mia-pizzeria-model/Views/Pizza/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGl6emFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Caringi's/RiderProjects/la-mia-pizzeria-model/Views/Pizza/ShowById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGl6emFcU2hvd0J5SWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Caringi's/RiderProjects/la-mia-pizzeria-model/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
