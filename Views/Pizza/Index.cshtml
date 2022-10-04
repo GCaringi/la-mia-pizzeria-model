@@ -4,6 +4,11 @@
 }
 
 <div>
+    @if (Model.Count < 1)
+    {
+        <h1>Non ci sono pizze nel database</h1>    
+    }
+    else{
     <table>
         <thead>
         <tr>
@@ -13,7 +18,7 @@
             <th>Prezzo</th>
         </tr>
         </thead>
-        
+
         <tbody>
         @foreach (Pizza pizza in Model)
         {
@@ -30,4 +35,5 @@
         }
         </tbody>
     </table>
+    }
 </div>
